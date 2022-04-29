@@ -47,7 +47,7 @@ export const Contact=()=>{
                          <img src={Addres} 
                          alt="addres-logo" 
                          className='c-icon'/>
-                         xobis rioni sofeli chaladidi,
+                       
                          tbilisi isani andwuladze 17
                     </div>
                     <div className="c-info-item">
