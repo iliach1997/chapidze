@@ -1,6 +1,6 @@
 import './intro.css'
 import 'animate.css'
-import Me from '../../img/my.jpg'
+
 
 export const Intro=()=>{
     return (
@@ -35,7 +35,7 @@ export const Intro=()=>{
         </div>
         <div className="i-right">
             <div className="i-bg animate__animated animate__backInRight"></div>
-            <img src={Me} alt="" className="i-img" />
+           
              </div>
        </div> 
     )
