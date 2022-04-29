@@ -1,0 +1,170 @@
+.i{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height:  120vh;
+  
+}
+.i-left{
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.i-right{
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+    position: relative;
+    
+}
+.i-left-wrapper{
+    padding: 50px;
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+
+    
+}
+.li{
+
+    text-decoration: none;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-delay: 0.2s;
+         -o-transition-delay: 0.2s;
+            transition-delay: 0.2s;
+    -webkit-transition-duration: 0.5s;
+         -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  
+}
+
+.li:hover{
+    color: #59b256; 
+ 
+}
+.i-intro{
+    font-size: 40px;
+    font-weight:bold;
+}
+.i-name{
+    font-size: 70px;
+    
+}
+.i-title{
+ height: 50px;
+ overflow: hidden;
+}
+.i-title-wrapper{
+
+ height: 100%;  
+ -webkit-animation: move 10s ease-in-out infinite alternate;  
+         animation: move 10s ease-in-out infinite alternate; 
+}
+@-webkit-keyframes move {
+    25%{
+        -webkit-transform: translateY(-50px);
+                transform: translateY(-50px);
+    }
+    50%{-webkit-transform: translateY(-100px);transform: translateY(-100px)}
+    75%{-webkit-transform: translateY(-150px);transform: translateY(-150px)}
+    100%{-webkit-transform: translateY(-200px);transform: translateY(-200px)}
+}
+@keyframes move {
+    25%{
+        -webkit-transform: translateY(-50px);
+                transform: translateY(-50px);
+    }
+    50%{-webkit-transform: translateY(-100px);transform: translateY(-100px)}
+    75%{-webkit-transform: translateY(-150px);transform: translateY(-150px)}
+    100%{-webkit-transform: translateY(-200px);transform: translateY(-200px)}
+}
+.i-title-item{
+    height: 50px;
+     font-size: 30px;
+     font-weight: bold;
+     color: #59b256;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
+}
+.i-desc{
+    font-size: 20px;
+
+}
+.i-img{
+    width: 0.00000000000000001%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+}
+.i-bg{
+    -webkit-clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+            clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color: #59b256;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
+    
+
+}
+@media screen and (max-width:480px){
+    .i{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .i-intro{
+        width: 90%;
+        font-size: 30px;
+    }
+    .i-name{
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    .i-left{
+        display: block;
+    }
+    .i-left-wrapper{
+        padding: 10px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+    .i-desc{
+        font-size: medium;
+    }
+}
