@@ -33,7 +33,7 @@
 }
 .a-card.bg{
     position: absolute;
-    top: 55px;
+    top: 60px;
     left: 50px; 
     background-color:#333;
 
@@ -53,17 +53,17 @@
 }
 .a-aca-img{
     width: 49%;
-    height: 450px;
+    height: 400px;
     border-radius: 10px;
 }
 .rea{
     margin-left: 10px;
 }
 .a-title{
-    font-size: 45px;
+    font-size: 43px;
 }
 .a-desc{
-    font-size: 30px;
+    font-size: 27px;
 }
 @media screen and (max-width:480px){
     .a{
